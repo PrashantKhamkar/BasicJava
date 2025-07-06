@@ -1,5 +1,7 @@
 package Java8;
 
+import java.util.Comparator;
+
 @FunctionalInterface
 interface Employee{
     String getName(); //Abstract method
@@ -14,3 +16,5 @@ public class LambdaExpressionExample {
         System.out.println(e.getName());
     }
 }
+
+
